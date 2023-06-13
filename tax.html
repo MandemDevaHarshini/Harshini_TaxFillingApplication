@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="tax.css">
+</head>
+
+<body>
+    <div id="sectionhomepage">
+        <div class="home-page-bg-container d-flex flex-column justify-content-end">
+            <div class="home-page-bottom-section">
+                <h1 class="home-page-heading">TAX APPLICATION!!</h1>
+                <p class="home-page-description">PROCEED HERE</p>
+                <button class="btn-btn-primary button" onclick="display('sectionflatslist')">File My Taxes</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionflatslist">
+        <div class="flats-list-bg-container">
+            <h1 class="home-page-heading">TAX PAGE</h1>
+            <div class="flats-list-card">
+                <div class="d-flex flex-row">
+                    <div class="d-flex flex-column">
+                        <h1 class="flats-list-card-heading">TAXES</h1>
+                        <p class="flats-list-card-description">
+                        <ul>
+                            <li>Form 16</li>
+                            <li>Any one payslip of last year(1st April 2022 to 31 march 2023)</li>
+                            <li>Housing loan interest and principal payment certificate</li>
+                            <li>Any investments made for tax planning(80C,80D)</li>
+                        </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="flats-list-card">
+                <div class="d-flex flex-row">
+                    <div class="d-flex flex-column">
+                        <h1 class="flats-list-card-heading">FIELDS IN REGISTRATION FORM</h1>
+                        <p class="flats-list-card-description">
+                        <ul>
+                            <li>Name</li>
+                            <li>Email</li>
+                            <li>Phone Number</li>
+                            <li>Address</li>
+                            <li>Occupation</li>
+                            <li>Salary per Annum</li>
+                        </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="flats-list-card">
+                <div class="d-flex flex-row">
+                    <div class="d-flex flex-column">
+                        <h1 class="flats-list-card-heading">COLUMNS TO BE SHOWN AS THE TABLE IN ADMIN RESPONSES</h1>
+                        <p class="flats-list-card-description">
+                        <ul>
+                            <li>Name</li>
+                            <li>Email</li>
+                            <li>From 16</li>
+                            <li>Address</li>
+                            <li>Phone Number</li>
+                            <li>Salary per Annum</li>
+                        </ul>
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+            <button class="btn-btn-primary flats-button" onclick="display('sectionhomepage')">Back</button>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
